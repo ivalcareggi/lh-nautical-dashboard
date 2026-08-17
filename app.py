@@ -141,7 +141,7 @@ with aba5:
     st.subheader("Valores reais x valores previstos")
     st.dataframe(dados_q6, use_container_width=True)
 
-    dados_mae = pd.read_csv("dados/q6_mae.csv")
+    dados_mae = pd.read_csv("resultados_quest_streamlit/q6_mae.csv")
 
     st.subheader("Erro Médio Absoluto (MAE)")
     st.dataframe(dados_mae, use_container_width=True)
