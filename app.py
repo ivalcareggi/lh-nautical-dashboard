@@ -80,7 +80,7 @@ with aba0:
 with aba1:
     st.header("Visão Geral dos Dados")
 
-    dados_q1 = pd.read_csv("dados/q1_visao_geral.csv")
+    dados_q1 = pd.read_csv("resultados_quest_streamlit/q1_visao_geral.csv")
 
     st.dataframe(dados_q1, use_container_width=True)
 
@@ -94,7 +94,7 @@ with aba1:
 with aba2:
     st.header("Intervalo de Datas")
 
-    dados_q1_2 = pd.read_csv("dados/q1_intervalo_datas.csv")
+    dados_q1_2 = pd.read_csv("resultados_quest_streamlit/q1_intervalo_datas.csv")
 
     st.dataframe(dados_q1_2, use_container_width=True)
 
@@ -113,7 +113,7 @@ with aba2:
 with aba3:
     st.header("Clientes de Elite")
 
-    dados_q4 = pd.read_csv("dados/q4_clientes_elite.csv")
+    dados_q4 = pd.read_csv("resultados_quest_streamlit/q4_clientes_elite.csv")
 
     st.dataframe(dados_q4, use_container_width=True)
 
@@ -121,7 +121,7 @@ with aba3:
 with aba4:
     st.header("Pior Dia de Vendas")
 
-    dados_q5 = pd.read_csv("dados/q5_pior_dia.csv")
+    dados_q5 = pd.read_csv("resultados_quest_streamlit/q5_pior_dia.csv")
 
     st.dataframe(dados_q5, use_container_width=True)
 
@@ -136,7 +136,7 @@ with aba4:
 with aba5:
     st.header("Previsão de Demanda")
 
-    dados_q6 = pd.read_csv("dados/q6_previsao.csv")
+    dados_q6 = pd.read_csv("resultados_quest_streamlit/q6_previsao.csv")
 
     st.subheader("Valores reais x valores previstos")
     st.dataframe(dados_q6, use_container_width=True)
@@ -155,6 +155,6 @@ with aba5:
 with aba6:
     st.header("Recomendação de Produtos")
 
-    dados_q7 = pd.read_csv("dados/q7_recomendacao.csv")
+    dados_q7 = pd.read_csv("resultados_quest_streamlit/q7_recomendacao.csv")
 
     st.dataframe(dados_q7, use_container_width=True)
